@@ -53,7 +53,6 @@
     // Run the function initially in case any links already exist
     removeCountryCodeFromDialpad();
 
-    console.log("remote code")
     //Remote support script
     const remoteScript = document.createElement('script');
     remoteScript.src = 'https://cdn.jsdelivr.net/gh/sabbirbbs/nuport/support.js';
